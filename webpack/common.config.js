@@ -28,10 +28,10 @@ module.exports = {
         use: ['babel-loader']
       },
 
-      {
+     /* {
         test: /\.json$/,
         loader: 'json'
-      },
+      },*/
 
       {
         test: /\.(jpg|png|gif|eot|svg|ttf|woff|woff2)$/,

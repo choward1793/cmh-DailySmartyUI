@@ -46,7 +46,7 @@
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.5.2",
     "cross-env": "^5.2.0",
-    "css-loader": "^1.0.0",
+    "css-loader": "0.28.4",
     "eslint": "^4.2.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.1.0",
@@ -55,7 +55,8 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.13.1",
+    "json": "^11.0.0",
+    "node-sass": "4.14.0",
     "postcss-loader": "^2.1.6",
     "react": "16.13.1",
     "react-animate-height": "^2.0.23",
@@ -66,15 +67,10 @@
     "redux": "4.0.5",
     "redux-form": "^8.3.8",
     "redux-thunk": "^2.4.1",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "6.0.6",
     "style-loader": "^0.21.0",
-    "webpack": "4.42.1",
-    "webpack-cli": "3.3.11",
-    "webpack-dev-middleware": "3.7.2",
-    "webpack-dev-server": "3.10.3",
-    "webpack-hot-middleware": "2.25.0",
-    "webpack-merge": "4.2.2",
-    "webpack-vendor-chunk-plugin": "^1.0.0"
+    "webpack": "3.1.0",
+    "webpack-merge": "4.1.0"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -82,6 +78,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "uglifyjs-webpack-plugin": "^1.2.7"
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack-dev-server": "2.5.1"
   }
 }
