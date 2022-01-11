@@ -13,7 +13,7 @@ const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlug
 module.exports = webpackMerge(webpackCommon, {
 
   devtool: 'inline-source-map',
-  mode: 'development',
+
   output: {
   
     path: path.resolve(__dirname, '../static/dist'),
